@@ -1,0 +1,84 @@
+body {
+	
+  margin:0;
+  padding:0;
+  background: url("../images/background.png") no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}
+
+.logo {
+	margin: auto;
+	margin-top: 20px;
+	width: 250px;
+}
+
+.logo img {
+	height: 100%;
+	width: 100%;
+}
+
+.menu {
+	width: 800px;
+	height: 40px;
+	line-height: 40px;
+	margin: auto;
+	font-size: 0;
+	border-top: 5px solid orange;
+}
+
+.menu a {
+	width: 100px;
+	display: inline-block;
+	text-align: center;
+	font-size: 22px;
+	font-family: Berlin Sans FB;
+	color: white;
+	background-color: rgba(0,0,0,0.85);
+}
+
+.menu a:hover {
+	color: orange;
+	text-decoration: none;
+	background-color: rgba(0,0,0,0.60);
+}
+
+.blog {
+	width: 800px;
+	margin: auto;
+	background-color: rgba(0,0,0,0.85);
+	border-top: 5px solid orange;
+	font-size: 0px;
+	margin-top: 20px;
+}
+
+.date {
+	display:inline-block;
+	background-color: orange;
+	height: 30px;
+	width: 100px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+}
+
+.title {
+	display:inline-block;
+	height: 30px;
+	width: 700px;
+	line-height: 30px;
+	font-size: 18px;
+	color: white;
+	padding-left: 18px;
+}
+
+.blog div {
+	color: white;
+	font-size: 16px;
+	font-family: Calibri;
+	width: 780px;
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
